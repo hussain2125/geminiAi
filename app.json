@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "quiz-app",
+    "slug": "quiz-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/welcome.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/welcome.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/welcome.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/welcome.png"
+    }
+  }
+}
